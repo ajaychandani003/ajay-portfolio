@@ -2,10 +2,10 @@
 
 import React from "react";
 import { portfolioData } from "@/data/portfolioData";
-import { Check, Award, GraduationCap } from "lucide-react";
+import { Award, GraduationCap } from "lucide-react";
 
 export function EducationSection() {
-  const { education, certifications, leadership, additional } = portfolioData;
+  const { education, leadership, additional } = portfolioData;
 
   return (
     <section id="education" className="scroll-mt-24 py-12 sm:py-14 border-b border-slate-200/70">
